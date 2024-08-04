@@ -58,6 +58,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+  gap: 40px;
   padding: 0;
 }
 
@@ -147,4 +148,79 @@ h1 {
 .insect img {
   width: 100px;
   height: 100px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .choose-insect-btn {
+    width: 150px;
+    height: 150px;
+  }
+
+  .choose-insect-btn img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .time,
+  .score {
+    font-size: 14px;
+  }
+
+  .message {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .insect {
+    width: 70px;
+    height: 70px;
+  }
+
+  .insect img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .choose-insect-btn {
+    width: 120px;
+    height: 120px;
+  }
+
+  .choose-insect-btn img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .time,
+  .score {
+    font-size: 12px;
+  }
+
+  .message {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .insect {
+    width: 50px;
+    height: 50px;
+  }
+
+  .insect img {
+    width: 50px;
+    height: 50px;
+  }
 }
